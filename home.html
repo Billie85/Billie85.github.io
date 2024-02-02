@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="design/home.css">
+    <link rel="stylesheet" type="text/css" href="design/nav_bar.css">
+    <link rel="stylesheet" type="text/css" href="design/about_me.css">
+    <link rel="stylesheet" type="text/css" href="design/loader.css">
+    <link rel="stylesheet" type="text/css" href="design/global.css">
+    <link rel="stylesheet" type="text/css" href="design/prroject.css">
+    <link rel="stylesheet" type="text/css" href="design/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/blossoming-constellation-free" rel="stylesheet">
+                
+    <!-- font link -->
+    <link href="https://fonts.cdnfonts.com/css/chiaroscura-trial" rel="stylesheet">
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</head>
+
+<body>
+    <div class="website-content">
+        <div class="navbar">
+            <div class="logo">Ayumi</div>
+            <div class="menu-icon">
+                <a href="#home" class="active">Home</a>
+                <a href="#About" class="active">About Me</a>
+                <a href="#Project" class="active">Project</a>
+            </div>
+        </div>
+        <!-- Homeの真ん中に表示する画面 -->
+        <section class="home" id="home">
+		    <div class="site-header">
+			    <div class="row">
+				    <div class="header-row">
+					    <span>I'm</span>Ayumi Kimura 
+					</div>
+				</div>
+                <div class="row">
+				    <div class="header-row">					
+					    <span>Student</span>42Tokyo
+					</div>
+                </div>
+            </div>
+            <!-- img  -->
+            <div class="img_right">
+			    <img class="picture_right" src="my_img/1.jpg">
+			</div>
+            <div class="img_left">
+                <img class="picture_left" src="my_img/2.jpg">
+			</div>
+        </section>
+        <!-- ========== About Me の部分のデザイン ========== -->
+        <section class="About" id="About">
+            <header class="education_font">
+                <h2>EDUCATION</h2>
+            </header>
+            <div class="contents">
+                <div class="box">
+                    <h4>2017 - 2018</h4>
+                    <h3>中学校入学 - 中学校卒業</h3>
+                    <p>2017年 Baulkham Hills High School 交換留学</p>
+                </div>
+                <div class="box">
+                    <h4>2018 - 2021</h4>
+                    <h3>農業高校入学(生活技術化) - 農業高校卒業(生活技術化)</h3>
+                    <p>ビジネス文書実務検定試験 2級 合格</p>
+                    <p>電卓計算能力検定 2級 合格</p>
+                    <p>家庭科被服制作技術検定 3級 合格</p>
+                    <p>家庭科食物調理技術検定 4級 合格</p>
+                </div>
+                <div class="box">
+                    <h4>2021 - 2024</h4>
+                    <h3>42Tokyo First Circle 終了(Lv10)</h3>
+                </div>
+            </div>
+            <div class="info">
+                <div class="info_language">
+                    <h4>Language</h4>
+                    <div class="language">
+                        <h3>Portuguese</h3>
+                        <p>Native</p>
+                        <h3>Japanese</h3>
+                        <p>Fluent</p>
+                        <h3>English</h3>
+                        <p>Conversational</p>
+                    </div>
+                    <h4>Coding Skill</h4>
+                    <div class="code_language">
+                        <h3>C</h3>
+                        <h3>C++</h3>
+                        <h3>CSS</h3>
+                        <h3>HTML</h3>
+                    </div>
+                </div>
+                <div class="Brazil_font">
+                    <h4>Brasileira</h4>
+                </div>
+                <div class="about_me_img">
+                    <img src="my_img/3.jpg">
+                </div>
+            </div>
+        </section>
+        <!-- Project の部分のデザイン -->
+        <section class="Project" id="Project">
+            <h1>Project</h1>
+            <div class="box_container">
+                <div class="container">
+                    <div class="project_boxs">
+                        <h4>FdF</h4>
+                        <p>与えられた地形をワイヤーフレームの3Dモデルを生成し、表示するプログラムを作成します</p>
+                        <p>language C</p>
+                        <a href="https://github.com/Billie85/FDF" target="_blank" rel="noopener noreferrer">
+                            <svg class="git_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.20-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.20-.82 2.20-.82.44 1.10.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.20 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                        </a>
+                    </div>
+                
+                    <div class="project_boxs">
+                        <h4>Philosophers</h4>
+                        <p>デッドロックなどの問題を避けながら、哲学者たちが食事をとる様子を模倣するプログラムを実装する課題</p>
+                        <p>language C</p>
+                        <a href="https://github.com/Billie85/philosopher" target="_blank" rel="noopener noreferrer">
+                            <svg class="git_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.20-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.20-.82 2.20-.82.44 1.10.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.20 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                        </a>                        
+                    </div>
+                
+                    <div class="project_boxs">
+                        <h4>printf</h4>
+                        <p>自作のprintf関数を実装する課題です。</p>
+                        <p>language C</p>
+                        <a href="https://github.com/Billie85/printf" target="_blank" rel="noopener noreferrer">
+                            <svg class="git_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.20-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.20-.82 2.20-.82.44 1.10.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.20 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                        </a>                        
+                    </div>
+                </div>
+                
+
+                <div class="video_container">
+                    <div class="separate">
+                        <div class="tra_part">
+                            <h4>42 last Project</h4>
+                            <p>この課題はゲームプラットフォームを作成する課題です。<br>
+                                Pongゲームをプレイすることができるなどのさまざまな機能が備わった<br>
+                                フルスタックウェブサイトです。<br>
+                                JWT / 2fa認証、チャット、プライベートメッセージ、友達リスト、プロファイル、<br>
+                                マッチメイキングシステム、スペクテーティングシステム、<br>
+                                などが学べる課題です。
+                            </p>                                                  
+                        </div>
+                        <div class="video_part">
+                            <video controls autoplay loop>
+                                <source src="/my_img/video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
