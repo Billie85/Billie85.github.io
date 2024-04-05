@@ -106,6 +106,12 @@ section {
   margin-left: auto;
   width: 800px;
   height: 500px;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.info .about_me_img.show {
+  opacity: 1;
 }
 
 .info .about_me_img img{
