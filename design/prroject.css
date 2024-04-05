@@ -10,19 +10,19 @@
 .Project h1{
 	font-family: 'Blossoming Constellation free', sans-serif;
 	font-weight: 500;
-	font-size: 2.8vw;
+	font-size: 6vw;
 	color: transparent;
 	-webkit-text-stroke: 1px rgba(236, 236, 25, 0.754);
   	transform: rotate(-4deg);
 	position: relative;
-	top: 44%;
+	top: 20%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .box_container{
 	position: relative;
-	top: 45%;
+	top: 20%;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -40,11 +40,10 @@
 }
 
 .project_boxs {
-  width: 310px;
-  height: 280px;
+  width: 400px;
+  height: 300px;
   background-color: #1f1b1b9a;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
-            0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .project_boxs h4{
